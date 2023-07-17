@@ -1,0 +1,27 @@
+# blockchain-golang
+
+### Result looks like this:
+0001613b36bdd1349a3bbd8c6dbe6c51f2edb184cb7ec46588cf0792f824718d
+00012faa2cc4c0c289ddef5ce35cdae4471186937c51d79c51bccd7bcdeb173f
+000043b9b2179d6ca882c2460de5b67af4cb223a956f343dc7fa7582a353e070
+0001dd5237572a0243a3882d4b9aa1080660cdea187d83f9e11f98c4874f3bec
+
+Previous Hash:
+Data in Block: Genesis
+Hash: 0001613b36bdd1349a3bbd8c6dbe6c51f2edb184cb7ec46588cf0792f824718d
+PoW:true
+
+Previous Hash: 0001613b36bdd1349a3bbd8c6dbe6c51f2edb184cb7ec46588cf0792f824718d
+Data in Block: First block after Genesis
+Hash: 00012faa2cc4c0c289ddef5ce35cdae4471186937c51d79c51bccd7bcdeb173f
+PoW:true
+
+Previous Hash: 00012faa2cc4c0c289ddef5ce35cdae4471186937c51d79c51bccd7bcdeb173f
+Data in Block: Second block after Genesis
+Hash: 000043b9b2179d6ca882c2460de5b67af4cb223a956f343dc7fa7582a353e070
+PoW:true
+
+Previous Hash: 000043b9b2179d6ca882c2460de5b67af4cb223a956f343dc7fa7582a353e070
+Data in Block: Third block after Genesis
+Hash: 0001dd5237572a0243a3882d4b9aa1080660cdea187d83f9e11f98c4874f3bec
+PoW:true
