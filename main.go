@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 
 	"github.com/Rusisg/blockchain/blockchain"
 )
 
 func main() {
-	chain := blockchain.InitBlockchain()
+	chain := blockchain.InitBlockChain()
 
 	chain.AddBlock("First block after Genesis")
 	chain.AddBlock("Second block after Genesis")
@@ -17,6 +18,9 @@ func main() {
 		fmt.Printf("Previous Hash: %x\n", block.PrevHash)
 		fmt.Printf("Data in Block: %s\n", block.Data)
 		fmt.Printf("Hash: %x\n", block.Hash)
-		fmt.Println("")
+
+		pow := blockchain.NewProof(block)
+		fmt.Printf("PoW:%s\n", strconv.FormatBool(pow.Validate()))
+		fmt.Println()
 	}
 }
